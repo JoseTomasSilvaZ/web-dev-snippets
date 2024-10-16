@@ -1,8 +1,8 @@
-### ⛓️‍💥 Auth con express
+## ⛓️‍💥 Auth con express
 
 El código presente en este repositorio tiene la finalidad de acercar a los estudiantes al uso de JWT y Cookies para la autenticación y autorización de usuarios en una app breve de Express utilizando Handlebars, y los servicios de Neon para la persistencia de datos.
 
-#### Cómo correr el proyecto
+### Cómo correr el proyecto
 
 Primero, clona el repositorio
 ```bash
