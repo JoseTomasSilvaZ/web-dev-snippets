@@ -13,3 +13,9 @@ export const auth = (req, res, next) => {
         return res.redirect('/login')
     }
 }
+
+export const adminMiddleware = (req, res, next) => {
+    if(req.user.role !== 'ADMIN') {
+        return res.send("No tienes permisos para acceder a esta ruta")
+    }
+}
