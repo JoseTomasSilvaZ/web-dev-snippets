@@ -10,7 +10,7 @@ export const authRouter = Router()
 /**
  * @swagger
  * /register:
- *  post:  # Cambiar de GET a POST
+ *  post:
  *      summary: Register a new customer
  *      tags: [auth]
  *      requestBody:
